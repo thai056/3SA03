@@ -1,5 +1,4 @@
 import React,{Component} from 'react';
-
 export default class Content extends Component{
     constructor(){
         super()
@@ -20,7 +19,6 @@ export default class Content extends Component{
                 name: {this.state.name}
                 <button onClick={this.addNum}>count: {this.state.count}</button>
             </div>
-
         )
     }
 }
