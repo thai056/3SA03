@@ -55,7 +55,7 @@ class App extends React.Component {
     })
   }
   render() {
-    let test = this.state.completed === false ? '' : <button className="button" onClick={this.reset}><h1>Again!</h1></button>;
+    let test = this.state.completed === false ? '' : <button className="button" onClick={this.reset}><h1>Play Again ?</h1></button>;
     let ans = this.state.completed === false ? '' : <h3 className="ans">Well done {message}</h3>;
     let tests = this.state.completed === false ? '' : <h1 className="win">The Winner !!</h1>;
     return (
