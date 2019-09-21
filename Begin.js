@@ -1,7 +1,7 @@
 import React, { } from 'react';
 import './Begin.css';
 
-function Begin() {
+function Begin(){
   return (
     <div className="one">
       <div className="row">
