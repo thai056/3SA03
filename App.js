@@ -5,7 +5,6 @@ import './App.css';
 import Begin from './Begin'
 import _ from 'lodash';
 
-
 const message = 'Thailand'
 const prepareStateFromWord = (given_word) => {
   let word = given_word.toUpperCase()
@@ -122,4 +121,4 @@ class App extends React.Component {
     )
   }
 }
-export default App; 
+export default App;
