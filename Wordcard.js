@@ -8,4 +8,4 @@ export default class Wordcard extends Component{
         )
     }
 }
-export default Wordcard;
+export default Wordcard; 
